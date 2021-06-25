@@ -24,6 +24,7 @@ img.logo{
     background: center;
     margin-left: 20px;
     margin-right: 35px;
+    cursor: pointer;
 }
 
 nav ul div{
@@ -67,9 +68,9 @@ a.active,a:hover{
 .redes{
     height: 150px;
     background-color: #000000;
-    padding: 30px;
     margin-top: 690px;
     color: white;
+
 }
 .redes h2{
     text-align: center;
@@ -78,17 +79,18 @@ a.active,a:hover{
 .sociales{
     text-align: center;
     padding-top: 1px;
-    padding-bottom: 40px;
+    cursor: pointer;
 }
 .sociales li{
     display: inline-block;
+
 }
 .sociales a:active a:hover{
     background: blue;
     transition: .2s;
-
     padding: -10px;
     cursor: pointer;
+   
 }
 
 /*MEDIAS QUERY*/
@@ -144,4 +146,10 @@ a.active,a:hover{
     #check:checked ~ ul{
         left: 0;
     }
+    .sociales li{
+        display: inline-block;
+        width: auto;
+        height: auto;
+    }
+   
 }
